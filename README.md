@@ -1,16 +1,20 @@
-# Mielniczuk_Dario
+# _*Curso de programación full stack*_
+---
 
-## **Título:** Curso de programación full stack
-
-
-o **Subtítulo:** Comisión A o B según corresponda
+### *Comisión A* 
 
 
-o **Encabezado:** Silicon Misiones - https://siliconmisiones.gob.ar/
 
 
-o **Autor:** Javier Dario Mielniczuk
+
+[Silicon Misiones](https://siliconmisiones.gob.ar/)
 
 
-o **Descripción:** este repositorio fue creado con fines académicos. Contiene los ejercicios
+- **Autor:** Javier Dario Mielniczuk
+
+
+- **Descripción:** este repositorio fue creado con fines académicos. Contiene los ejercicios
 resueltos del Módulo 1.
+
+
+![Logo silicon](https://siliconmisiones.gob.ar/wp-content/uploads/2023/05/cropped-500x500px-logo-silicon.png)
