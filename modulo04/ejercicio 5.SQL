@@ -1,0 +1,28 @@
+-- a) SELECT apellido FROM empleados;
+-- b) SELECT distinct apellido FROM empleados;
+-- c) SELECT * FROM empleados;
+-- d) SELECT nombre, apellido FROM empleados;
+-- e) SELECT empleados.cuil_cuit FROM empleados;
+-- f) SELECT concat(nombre,  " ",apellido) as "nombre y apellido" FROM empleados;
+-- g) SELECT upper(concat(nombre,  " ",apellido)) as "nombre y apellido" FROM empleados;
+-- h) SELECT lower(concat(nombre,  " ",apellido)) as "nombre y apellido" FROM empleados;
+-- i) SELECT nombre, presupuesto FROM departamentos order by presupuesto;
+-- j) SELECT nombre FROM departamentos order by nombre; 
+-- k) SELECT nombre FROM departamentos order by nombre desc;
+-- l) SELECT apellido, nombre FROM empleados order by apellido, nombre;
+-- m) SELECT nombre, presupuesto FROM departamentos order by presupuesto desc limit 3;
+-- n) SELECT nombre, presupuesto FROM departamentos order by presupuesto asc limit 3;
+-- o) SELECT nombre, presupuesto FROM departamentos where presupuesto >= 150000;
+-- p) SELECT nombre, presupuesto FROM departamentos where presupuesto > 100000 and presupuesto <200000;
+-- q) SELECT nombre, presupuesto FROM departamentos where presupuesto < 100000 or presupuesto >200000;
+-- r) SELECT nombre, presupuesto FROM departamentos where presupuesto between 100000 and 200000;
+-- s) SELECT empleados.nombre, empleados.apellido, departamentos.* FROM empleados inner join departamentos on empleados.departamento = departamento_id;
+-- t) SELECT empleados.apellido, empleados.nombre, departamentos.* FROM empleados inner join departamentos on empleados.departamento = departamento_id order by departamentos.nombre, empleados.apellido, empleados.nombre;
+-- u) SELECT distinct departamentos.departamento_id, departamentos.nombre FROM departamentos inner join empleados on empleados.departamento = departamento_id where empleados.departamento>0;
+-- v) SELECT departamentos.nombre FROM departamentos inner join empleados on empleados.departamento = departamento_id where empleados.cuil_cuit='27-38382980-3';
+-- w) SELECT departamentos.nombre FROM departamentos inner join empleados on empleados.departamento = departamento_id where empleados.nombre ='Pepe' and empleados.apellido= 'Ruiz';
+-- x) SELECT empleados.* FROM empleados inner join departamentos on empleados.departamento = departamento_id where departamentos.nombre = 'I+D' order by empleados.apellido;
+-- y) SELECT empleados.* FROM empleados inner join departamentos on empleados.departamento = departamento_id where departamentos.nombre = 'I+D' or departamentos.nombre='Sistemas' or departamentos.nombre='Contabilidad' order by empleados.apellido;
+-- z) SELECT empleados.nombre FROM empleados inner join departamentos on empleados.departamento = departamento_id where departamentos.presupuesto not between 100000 and 200000;
+
+
